@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Chat.scss";
 import ChatHeader from "./ChatHeader";
 import AddIcon from "@mui/icons-material/Add";
@@ -13,11 +13,7 @@ import {
   CollectionReference,
   DocumentData,
   DocumentReference,
-  onSnapshot,
-  orderBy,
-  query,
   serverTimestamp,
-  Timestamp,
 } from "firebase/firestore";
 import { db } from "../../firebase";
 import useSubCollection from "../../hooks/useSubCollection";

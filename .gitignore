@@ -23,5 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 #削除ファイル
-# firebse. json
-#firebaserc
+firebse. json
+.firebaserc
+firebse.tsx
