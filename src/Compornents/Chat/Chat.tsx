@@ -66,7 +66,7 @@ const Chat = () => {
             user={message.user}
           />
         ))}
-        ;
+
         {/* <ChatMessage />
         <ChatMessage />S
         <ChatMessage />
